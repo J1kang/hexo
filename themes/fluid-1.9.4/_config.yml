@@ -95,7 +95,7 @@ fun_features:
 
     # 是否循环播放效果
     # If true, loop animation
-    loop: false
+    loop: true
 
     # 在指定页面开启，不填则在所有页面开启
     # Enable in specified page, all pages by default
@@ -138,7 +138,7 @@ dark_mode:
 color:
   # body 背景色
   # Color of body background
-  body_bg_color: "#eee"
+  body_bg_color: "#018786"
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
   body_bg_color_dark: "#181c27"
@@ -432,7 +432,7 @@ footer:
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
   statistics:
-    enable: false
+    enable: true
 
     # 统计数据来源，使用 leancloud 需要设置 `web_analytics: leancloud` 中的参数；使用 busuanzi 不需要额外设置，但是有时不稳定，另外本地运行时 busuanzi 显示统计数据很大属于正常现象，部署后会正常
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
@@ -576,7 +576,7 @@ post:
     # 浏览量计数
     # Number of visits
     views:
-      enable: false
+      enable: true
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud
@@ -585,7 +585,7 @@ post:
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
   updated:
-    enable: false
+    enable: true
 
     # 格式参照 ISO-8601 日期格式化
     # ISO-8601 date format
@@ -664,7 +664,7 @@ post:
     # 显示更新日期
     # Show update date
     update_date:
-      enable: false
+      enable: true
       format: "LL"
 
   # 文章底部上一篇下一篇功能
