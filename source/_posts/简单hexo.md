@@ -1,9 +1,7 @@
-## 标题
-#
 
- 1. 
-
-## 这里是列表文本
+---
+title:  hexo部署简单描述
+---
 
 # 简单描述
 github新建仓库（名字随意）
@@ -25,3 +23,6 @@ git push //推送到远程仓库
 ps：
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5ODIyMzM0NDFdfQ==
+-->
